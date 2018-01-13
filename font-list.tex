@@ -1,0 +1,73 @@
+
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\usepackage{wallpaper}
+
+\usepackage{epstopdf}
+\usepackage{enumitem}
+
+\sloppy
+\usepackage[none]{hyphenat}
+\usepackage{verbatim}
+\date{}
+\author{}
+\title{Schriftfamilien}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\begin{document}
+
+\maketitle
+
+\section{Schriftfamilien}
+Folgende Angaben können für "FONT" gewählt werden:
+
+\begin{center}
+\begin{tabular}{|*{2}{c|}}
+\hline
+Parameter & Schriftfamilie \\ \hline 
+ptm & Times \\ \hline 
+phv & Helvetica \\ \hline 
+pcr & Courier \\ \hline 
+pbk & Bookman \\ \hline 
+pag & Avant Garde \\ \hline 
+ppl & Palatino \\ \hline 
+bch & Charter \\ \hline 
+pnc & New Century Schoolbook \\ \hline 
+put & Utopia \\ \hline 
+\end{tabular}
+\end{center}
+
+
+
+\section{Beispiele}
+\subsection{Times}
+Soll für das gesamte Dokument die Schriftfamilie Times genutzt werden, lautet der Befehl innerhalb der Präambel:
+
+\begin{verbatim}
+\usepackage{times}
+\fontfamily{ptm}\selectfont
+\end{verbatim}
+
+
+\subsection{Helvetica}
+\begin{verbatim}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\fontfamily{phv}\selectfont
+\end{verbatim}
+
+\subsection{Courier}
+\begin{verbatim}
+\usepackage{courier} \raggedright
+\renewcommand{\familydefault}{\ttdefault}  
+\fontfamily{pcr}\selectfont
+\end{verbatim}
+
+
+
+\end{document}

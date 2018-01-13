@@ -1,0 +1,55 @@
+
+!tex
+!packages
+\usepackage{verbatim}
+!date 
+!author 
+!title Schriftfamilien
+!utf
+!begin
+
+!maketitle
+
+!= Schriftfamilien 
+Folgende Angaben können für "FONT" gewählt werden:
+
+!btable 2
+!csv Parameter	Schriftfamilie
+!csv ptm	Times
+!csv phv	Helvetica
+!csv pcr	Courier
+!csv pbk	Bookman
+!csv pag	Avant Garde
+!csv ppl	Palatino
+!csv bch	Charter
+!csv pnc	New Century Schoolbook
+!csv put	Utopia
+!etable
+
+
+!= Beispiele
+!== Times
+Soll für das gesamte Dokument die Schriftfamilie Times genutzt werden, lautet der Befehl innerhalb der Präambel:
+
+\begin{verbatim}
+\usepackage{times}
+\fontfamily{ptm}\selectfont
+\end{verbatim}
+
+
+!== Helvetica 
+\begin{verbatim}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\fontfamily{phv}\selectfont
+\end{verbatim}
+
+!== Courier
+\begin{verbatim}
+\usepackage{courier} \raggedright
+\renewcommand{\familydefault}{\ttdefault}  
+\fontfamily{pcr}\selectfont
+\end{verbatim}
+
+
+
