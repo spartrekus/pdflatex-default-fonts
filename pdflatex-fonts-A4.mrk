@@ -1,0 +1,521 @@
+
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+!title Font Examples using Pdflatex
+!author John Doe
+!date Today
+
+\begin{document}
+!maketitle
+
+\changefont{pbk}{m}{n}
+This file is a demo showing a font type. 
+The document has been generated using PDFLATEX under FreeBSD and Linux. 
+%Look here for more fonts: /usr/share/texlive/texmf-dist/tex/latex/psnfss
+
+// #input{file.txt}
+
+\changefont{cmr}{m}{n}
+\begin{verbatim}
+\changefont{cmr}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{m}{it}
+\begin{verbatim}
+\changefont{cmr}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{m}{sl}
+\begin{verbatim}
+\changefont{cmr}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{m}{sc}
+\begin{verbatim}
+\changefont{cmr}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{b}{n}
+\begin{verbatim}
+\changefont{cmr}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{bx}{n}
+\begin{verbatim}
+\changefont{cmr}{bx}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{bx}{it}
+\begin{verbatim}
+\changefont{cmr}{bx}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{bx}{sl}
+\begin{verbatim}
+\changefont{cmr}{bx}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmr}{bx}{sc}
+\begin{verbatim}
+\changefont{cmr}{bx}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{m}{n}
+\begin{verbatim}
+\changefont{ptm}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{m}{n}
+\begin{verbatim}
+\changefont{ppl}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{m}{it}
+\begin{verbatim}
+\changefont{ptm}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{m}{it}
+\begin{verbatim}
+\changefont{ppl}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{m}{sl}
+\begin{verbatim}
+\changefont{ptm}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{m}{sl}
+\begin{verbatim}
+\changefont{ppl}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{m}{sc}
+\begin{verbatim}
+\changefont{ptm}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{m}{sc}
+\begin{verbatim}
+\changefont{ppl}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{b}{n}
+\begin{verbatim}
+\changefont{ptm}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{b}{n}
+\begin{verbatim}
+\changefont{ppl}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{b}{it}
+\begin{verbatim}
+\changefont{ptm}{b}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{b}{it}
+\begin{verbatim}
+\changefont{ppl}{b}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{b}{sl}
+\begin{verbatim}
+\changefont{ptm}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{b}{sl}
+\begin{verbatim}
+\changefont{ppl}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ptm}{b}{sc}
+\begin{verbatim}
+\changefont{ptm}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{ppl}{b}{sc}
+\begin{verbatim}
+\changefont{ppl}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{m}{n}
+\begin{verbatim}
+\changefont{pnc}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{m}{n}
+\begin{verbatim}
+\changefont{pbk}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{m}{it}
+\begin{verbatim}
+\changefont{pnc}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{m}{it}
+\begin{verbatim}
+\changefont{pbk}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{m}{sl}
+\begin{verbatim}
+\changefont{pnc}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{m}{sl}
+\begin{verbatim}
+\changefont{pbk}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{m}{sc}
+\begin{verbatim}
+\changefont{pnc}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{b}{n}
+\begin{verbatim}
+\changefont{pnc}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{m}{sc}
+\begin{verbatim}
+\changefont{pbk}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{b}{n}
+\begin{verbatim}
+\changefont{pbk}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{b}{it}
+\begin{verbatim}
+\changefont{pnc}{b}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{b}{it}
+\begin{verbatim}
+\changefont{pbk}{b}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pnc}{b}{sl}
+\begin{verbatim}
+\changefont{pnc}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{b}{sl}
+\begin{verbatim}
+\changefont{pbk}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+S MALL C APS \changefont{pnc}{b}{sc}
+\begin{verbatim}
+S MALL C APS \changefont{pnc}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pbk}{b}{sc}
+\begin{verbatim}
+\changefont{pbk}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmss}{m}{n}
+\begin{verbatim}
+\changefont{cmss}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{m}{n}
+\begin{verbatim}
+\changefont{phv}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmss}{m}{sl}
+\begin{verbatim}
+\changefont{cmss}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{m}{sl}
+\begin{verbatim}
+\changefont{phv}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmss}{bx}{n}
+\begin{verbatim}
+\changefont{cmss}{bx}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmss}{sbc}{n}
+\begin{verbatim}
+\changefont{cmss}{sbc}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{m}{sc}
+\begin{verbatim}
+\changefont{phv}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{b}{n}
+\begin{verbatim}
+\changefont{phv}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{b}{sl}
+\begin{verbatim}
+\changefont{phv}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{b}{sc}
+\begin{verbatim}
+\changefont{phv}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{bc}{n}
+\begin{verbatim}
+\changefont{phv}{bc}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{phv}{bc}{sc}
+\begin{verbatim}
+\changefont{phv}{bc}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{m}{n}
+\begin{verbatim}
+\changefont{pag}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmtt}{m}{n}
+\begin{verbatim}
+\changefont{cmtt}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{m}{sl}
+\begin{verbatim}
+\changefont{pag}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{m}{sc}
+\begin{verbatim}
+\changefont{pag}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{b}{n}
+\begin{verbatim}
+\changefont{pag}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{b}{sl}
+\begin{verbatim}
+\changefont{pag}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pag}{b}{sc}
+\begin{verbatim}
+\changefont{pag}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmtt}{m}{it}
+\begin{verbatim}
+\changefont{cmtt}{m}{it} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmtt}{m}{sl}
+\begin{verbatim}
+\changefont{cmtt}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmtt}{m}{sc}
+\begin{verbatim}
+\changefont{cmtt}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{m}{n}
+\begin{verbatim}
+\changefont{pcr}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmdh}{m}{n}
+\begin{verbatim}
+\changefont{cmdh}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{b}{n}
+\begin{verbatim}
+\changefont{pcr}{b}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{b}{sl}
+\begin{verbatim}
+\changefont{pcr}{b}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{m}{sc}
+\begin{verbatim}
+\changefont{pcr}{m}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{b}{sc}
+\begin{verbatim}
+\changefont{pcr}{b}{sc} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{cmfib}{m}{n}
+\begin{verbatim}
+\changefont{cmfib}{m}{n} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
+\changefont{pcr}{m}{sl}
+\begin{verbatim}
+\changefont{pcr}{m}{sl} will give:
+\end{verbatim}
+John Doe wrote this text.
+
+
