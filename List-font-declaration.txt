@@ -1,0 +1,874 @@
+\DeclareFontFamily{8r}{bch}{}
+\DeclareFontShape{8r}{bch}{m}{n}{
+\DeclareFontShape{8r}{bch}{m}{sl}{
+\DeclareFontShape{8r}{bch}{m}{it}{
+\DeclareFontShape{8r}{bch}{b}{n}{
+\DeclareFontShape{8r}{bch}{b}{sl}{
+\DeclareFontShape{8r}{bch}{b}{it}{
+\DeclareFontShape{8r}{bch}{bx}{n}{<->ssub * bch/b/n}{}
+\DeclareFontShape{8r}{bch}{bx}{sl}{<->ssub * bch/b/sl}{}
+\DeclareFontShape{8r}{bch}{bx}{it}{<->ssub * bch/b/it}{}
+\DeclareFontFamily{8r}{pag}{}
+\DeclareFontShape{8r}{pag}{m}{n}{
+\DeclareFontShape{8r}{pag}{m}{sl}{
+\DeclareFontShape{8r}{pag}{db}{n}{
+\DeclareFontShape{8r}{pag}{db}{sl}{
+\DeclareFontShape{8r}{pag}{m}{it}{<->ssub * pag/m/sl}{}
+\DeclareFontShape{8r}{pag}{b}{n}{<->ssub * pag/db/n}{}
+\DeclareFontShape{8r}{pag}{bx}{n}{<->ssub * pag/b/n}{}
+\DeclareFontShape{8r}{pag}{b}{sl}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{8r}{pag}{bx}{sl}{<->ssub * pag/b/sl}{}
+\DeclareFontShape{8r}{pag}{db}{it}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{8r}{pag}{b}{it}{<->ssub * pag/db/it}{}
+\DeclareFontShape{8r}{pag}{bx}{it}{<->ssub * pag/b/it}{}
+\DeclareFontFamily{8r}{pbk}{}
+\DeclareFontShape{8r}{pbk}{db}{n}{
+\DeclareFontShape{8r}{pbk}{db}{sl}{
+\DeclareFontShape{8r}{pbk}{db}{it}{
+\DeclareFontShape{8r}{pbk}{l}{n}{
+\DeclareFontShape{8r}{pbk}{l}{sl}{
+\DeclareFontShape{8r}{pbk}{l}{it}{
+\DeclareFontShape{8r}{pbk}{b}{n}{<->ssub * pbk/db/n}{}
+\DeclareFontShape{8r}{pbk}{bx}{n}{<->ssub * pbk/b/n}{}
+\DeclareFontShape{8r}{pbk}{b}{sl}{<->ssub * pbk/db/sl}{}
+\DeclareFontShape{8r}{pbk}{bx}{sl}{<->ssub * pbk/b/sl}{}
+\DeclareFontShape{8r}{pbk}{b}{it}{<->ssub * pbk/db/it}{}
+\DeclareFontShape{8r}{pbk}{bx}{it}{<->ssub * pbk/b/it}{}
+\DeclareFontShape{8r}{pbk}{m}{n}{<->ssub * pbk/l/n}{}
+\DeclareFontShape{8r}{pbk}{m}{sl}{<->ssub * pbk/l/sl}{}
+\DeclareFontShape{8r}{pbk}{m}{it}{<->ssub * pbk/l/it}{}
+\DeclareFontFamily{8r}{pcr}{\hyphenchar \font\m@ne}
+\DeclareFontShape{8r}{pcr}{m}{n}{
+\DeclareFontShape{8r}{pcr}{m}{sl}{
+\DeclareFontShape{8r}{pcr}{b}{n}{
+\DeclareFontShape{8r}{pcr}{b}{sl}{
+\DeclareFontShape{8r}{pcr}{m}{it}{<->ssub * pcr/m/sl}{}
+\DeclareFontShape{8r}{pcr}{bx}{n}{<->ssub * pcr/b/n}{}
+\DeclareFontShape{8r}{pcr}{bx}{sl}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{8r}{pcr}{b}{it}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{8r}{pcr}{bx}{it}{<->ssub * pcr/b/it}{}
+\DeclareFontFamily{8r}{phv}{}
+\DeclareFontShape{8r}{phv}{m}{n}{
+\DeclareFontShape{8r}{phv}{m}{sl}{
+\DeclareFontShape{8r}{phv}{mc}{n}{
+\DeclareFontShape{8r}{phv}{mc}{sl}{
+\DeclareFontShape{8r}{phv}{b}{n}{
+\DeclareFontShape{8r}{phv}{b}{sl}{
+\DeclareFontShape{8r}{phv}{bc}{n}{
+\DeclareFontShape{8r}{phv}{bc}{sl}{
+\DeclareFontShape{8r}{phv}{m}{it}{<->ssub * phv/m/sl}{}
+\DeclareFontShape{8r}{phv}{mc}{it}{<->ssub * phv/mc/sl}{}
+\DeclareFontShape{8r}{phv}{bx}{n}{<->ssub * phv/b/n}{}
+\DeclareFontShape{8r}{phv}{bx}{sl}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{8r}{phv}{b}{it}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{8r}{phv}{bx}{it}{<->ssub * phv/b/it}{}
+\DeclareFontShape{8r}{phv}{bc}{it}{<->ssub * phv/bc/sl}{}
+\DeclareFontFamily{8r}{pnc}{}
+\DeclareFontShape{8r}{pnc}{m}{n}{
+\DeclareFontShape{8r}{pnc}{m}{sl}{
+\DeclareFontShape{8r}{pnc}{m}{it}{
+\DeclareFontShape{8r}{pnc}{b}{n}{
+\DeclareFontShape{8r}{pnc}{b}{sl}{
+\DeclareFontShape{8r}{pnc}{b}{it}{
+\DeclareFontShape{8r}{pnc}{bx}{n}{<->ssub * pnc/b/n}{}
+\DeclareFontShape{8r}{pnc}{bx}{sl}{<->ssub * pnc/b/sl}{}
+\DeclareFontShape{8r}{pnc}{bx}{it}{<->ssub * pnc/b/it}{}
+\DeclareFontFamily{8r}{ppl}{}
+\DeclareFontShape{8r}{ppl}{m}{n}{
+\DeclareFontShape{8r}{ppl}{m}{sl}{
+\DeclareFontShape{8r}{ppl}{m}{it}{
+\DeclareFontShape{8r}{ppl}{b}{n}{
+\DeclareFontShape{8r}{ppl}{b}{sl}{
+\DeclareFontShape{8r}{ppl}{b}{it}{
+\DeclareFontShape{8r}{ppl}{bx}{n}{<->ssub * ppl/b/n}{}
+\DeclareFontShape{8r}{ppl}{bx}{sl}{<->ssub * ppl/b/sl}{}
+\DeclareFontShape{8r}{ppl}{bx}{it}{<->ssub * ppl/b/it}{}
+\DeclareFontFamily{8r}{ptm}{}
+\DeclareFontShape{8r}{ptm}{m}{n}{
+\DeclareFontShape{8r}{ptm}{m}{sl}{
+\DeclareFontShape{8r}{ptm}{m}{it}{
+\DeclareFontShape{8r}{ptm}{b}{n}{
+\DeclareFontShape{8r}{ptm}{b}{sl}{
+\DeclareFontShape{8r}{ptm}{b}{it}{
+\DeclareFontShape{8r}{ptm}{bx}{n}{<->ssub * ptm/b/n}{}
+\DeclareFontShape{8r}{ptm}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{8r}{ptm}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontFamily{8r}{put}{}
+\DeclareFontShape{8r}{put}{m}{n}{
+\DeclareFontShape{8r}{put}{m}{sl}{
+\DeclareFontShape{8r}{put}{m}{it}{
+\DeclareFontShape{8r}{put}{b}{n}{
+\DeclareFontShape{8r}{put}{b}{sl}{
+\DeclareFontShape{8r}{put}{b}{it}{
+\DeclareFontShape{8r}{put}{bx}{n}{<->ssub * put/b/n}{}
+\DeclareFontShape{8r}{put}{bx}{sl}{<->ssub * put/b/sl}{}
+\DeclareFontShape{8r}{put}{bx}{it}{<->ssub * put/b/it}{}
+\DeclareFontFamily{8r}{pzc}{}
+\DeclareFontShape{8r}{pzc}{mb}{it}{
+\DeclareFontShape{8r}{pzc}{m}{it}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{8r}{pzc}{mb}{sl}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{8r}{pzc}{m}{sl}{<->ssub * pzc/mb/sl}{}
+\DeclareFontShape{8r}{pzc}{m}{n}{<->ssub * pzc/mb/it}{}
+  \DeclareFontFamily{U}{msa}{}%
+  \DeclareFontShape{U}{msa}{m}{n}{<->s*[1.042]msam10}{}%
+  \DeclareFontFamily{U}{msb}{}%
+  \DeclareFontShape{U}{msb}{m}{n}{<->s*[1.042]msbm10}{}%
+  \DeclareFontFamily{U}{euf}{}%
+  \DeclareFontShape{U}{euf}{m}{n}{<-6>eufm5<6-8>eufm7<8->eufm10}{}%
+  \DeclareFontShape{U}{euf}{b}{n}{<-6>eufb5<6-8>eufb7<8->eufb10}{}%
+  \DeclareFontFamily{U}{msa}{}%
+  \DeclareFontShape{U}{msa}{m}{n}{<->s*[1.042]msam10}{}%
+  \DeclareFontFamily{U}{msb}{}%
+  \DeclareFontShape{U}{msb}{m}{n}{<->s*[1.042]msbm10}{}%
+  \DeclareFontFamily{U}{euf}{}%
+  \DeclareFontShape{U}{euf}{m}{n}{<-6>eufm5<6-8>eufm7<8->eufm10}{}%
+  \DeclareFontShape{U}{euf}{b}{n}{<-6>eufb5<6-8>eufb7<8->eufb10}{}%
+  \DeclareFontFamily{U}{msa}{}%
+  \DeclareFontShape{U}{msa}{m}{n}{<->msam10}{}%
+  \DeclareFontFamily{U}{msb}{}%
+  \DeclareFontShape{U}{msb}{m}{n}{<->msbm10}{}%
+  \DeclareFontFamily{U}{euf}{}%
+  \DeclareFontShape{U}{euf}{m}{n}{<-6>eufm5<6-8>eufm7<8->eufm10}{}%
+  \DeclareFontShape{U}{euf}{b}{n}{<-6>eufb5<6-8>eufb7<8->eufb10}{}%
+\DeclareFontFamily{OML}{bch}{\skewchar\font127}
+\DeclareFontShape{OML}{bch}{m}{n}
+\DeclareFontShape{OML}{bch}{m}{it}
+\DeclareFontShape{OML}{bch}{m}{sl}
+\DeclareFontShape{OML}{bch}{m}{sc}
+\DeclareFontShape{OML}{bch}{b}{n}
+\DeclareFontShape{OML}{bch}{b}{it}
+\DeclareFontShape{OML}{bch}{b}{sl}
+\DeclareFontShape{OML}{bch}{b}{sc}
+\DeclareFontFamily{OML}{pag}{\skewchar\font127}
+\DeclareFontShape{OML}{pag}{m}{n}
+\DeclareFontShape{OML}{pag}{m}{it}
+\DeclareFontShape{OML}{pag}{m}{sl}
+\DeclareFontShape{OML}{pag}{m}{sc}
+\DeclareFontShape{OML}{pag}{b}{n}
+\DeclareFontShape{OML}{pag}{b}{it}
+\DeclareFontShape{OML}{pag}{b}{sl}
+\DeclareFontShape{OML}{pag}{b}{sc}
+\DeclareFontFamily{OML}{pbk}{\skewchar\font127}
+\DeclareFontShape{OML}{pbk}{m}{n}
+\DeclareFontShape{OML}{pbk}{m}{it}
+\DeclareFontShape{OML}{pbk}{m}{sl}
+\DeclareFontShape{OML}{pbk}{m}{sc}
+\DeclareFontShape{OML}{pbk}{b}{n}
+\DeclareFontShape{OML}{pbk}{b}{it}
+\DeclareFontShape{OML}{pbk}{b}{sl}
+\DeclareFontShape{OML}{pbk}{b}{sc}
+\DeclareFontFamily{OML}{pcr}{\skewchar\font127}
+\DeclareFontShape{OML}{pcr}{m}{n}
+\DeclareFontShape{OML}{pcr}{m}{it}
+\DeclareFontShape{OML}{pcr}{m}{sl}
+\DeclareFontShape{OML}{pcr}{m}{sc}
+\DeclareFontShape{OML}{pcr}{b}{n}
+\DeclareFontShape{OML}{pcr}{b}{it}
+\DeclareFontShape{OML}{pcr}{b}{sl}
+\DeclareFontShape{OML}{pcr}{b}{sc}
+\DeclareFontFamily{OML}{phv}{\skewchar\font127}
+\DeclareFontShape{OML}{phv}{m}{n}
+\DeclareFontShape{OML}{phv}{m}{it}
+\DeclareFontShape{OML}{phv}{m}{sl}
+\DeclareFontShape{OML}{phv}{m}{sc}
+\DeclareFontShape{OML}{phv}{b}{n}
+\DeclareFontShape{OML}{phv}{b}{it}
+\DeclareFontShape{OML}{phv}{b}{sl}
+\DeclareFontShape{OML}{phv}{b}{sc}
+\DeclareFontFamily{OML}{pnc}{\skewchar\font127}
+\DeclareFontShape{OML}{pnc}{m}{n}
+\DeclareFontShape{OML}{pnc}{m}{it}
+\DeclareFontShape{OML}{pnc}{m}{sl}
+\DeclareFontShape{OML}{pnc}{m}{sc}
+\DeclareFontShape{OML}{pnc}{b}{n}
+\DeclareFontShape{OML}{pnc}{b}{it}
+\DeclareFontShape{OML}{pnc}{b}{sl}
+\DeclareFontShape{OML}{pnc}{b}{sc}
+\DeclareFontFamily{OML}{ppl}{\skewchar\font127}
+\DeclareFontShape{OML}{ppl}{m}{n}
+\DeclareFontShape{OML}{ppl}{m}{it}
+\DeclareFontShape{OML}{ppl}{m}{sl}
+\DeclareFontShape{OML}{ppl}{m}{sc}
+\DeclareFontShape{OML}{ppl}{b}{n}
+\DeclareFontShape{OML}{ppl}{b}{it}
+\DeclareFontShape{OML}{ppl}{b}{sl}
+\DeclareFontShape{OML}{ppl}{b}{sc}
+\DeclareFontFamily{OML}{ptm}{\skewchar\font127}
+\DeclareFontShape{OML}{ptm}{m}{n}
+\DeclareFontShape{OML}{ptm}{m}{it}
+\DeclareFontShape{OML}{ptm}{m}{sl}
+\DeclareFontShape{OML}{ptm}{m}{sc}
+\DeclareFontShape{OML}{ptm}{b}{n}
+\DeclareFontShape{OML}{ptm}{b}{it}
+\DeclareFontShape{OML}{ptm}{b}{sl}
+\DeclareFontShape{OML}{ptm}{b}{sc}
+\DeclareFontFamily{OML}{ptmcm}{\skewchar \font =127}
+\DeclareFontShape{OML}{ptmcm}{m}{it}{
+\DeclareFontShape{OML}{ptmcm}{m}{sl}{<->ssub * ptmcm/m/it}{}
+\DeclareFontFamily{OML}{put}{\skewchar\font127}
+\DeclareFontShape{OML}{put}{m}{n}
+\DeclareFontShape{OML}{put}{m}{it}
+\DeclareFontShape{OML}{put}{m}{sl}
+\DeclareFontShape{OML}{put}{m}{sc}
+\DeclareFontShape{OML}{put}{b}{n}
+\DeclareFontShape{OML}{put}{b}{it}
+\DeclareFontShape{OML}{put}{b}{sl}
+\DeclareFontShape{OML}{put}{b}{sc}
+\DeclareFontFamily{OML}{pzc}{\skewchar\font127}
+\DeclareFontShape{OML}{pzc}{m}{n}
+\DeclareFontShape{OML}{pzc}{m}{it}
+\DeclareFontShape{OML}{pzc}{m}{sl}
+\DeclareFontShape{OML}{pzc}{m}{sc}
+\DeclareFontShape{OML}{pzc}{b}{n}
+\DeclareFontShape{OML}{pzc}{b}{it}
+\DeclareFontShape{OML}{pzc}{b}{sl}
+\DeclareFontShape{OML}{pzc}{b}{sc}
+\DeclareFontFamily{OML}{zplm}{\skewchar \font =127}
+\DeclareFontShape{OML}{zplm}{m}{it}{
+\DeclareFontShape{OML}{zplm}{b}{it}{
+\DeclareFontShape{OML}{zplm}{m}{sl}{<->ssub * zplm/m/it}{}
+\DeclareFontShape{OML}{zplm}{bx}{it}{<->ssub * zplm/b/it}{}
+\DeclareFontShape{OML}{zplm}{b}{sl}{<->ssub * zplm/b/it}{}
+\DeclareFontShape{OML}{zplm}{bx}{sl}{<->ssub * zplm/b/sl}{}
+\DeclareFontFamily{OML}{zpple}{\skewchar \font =127}
+\DeclareFontShape{OML}{zpple}{m}{it}{
+\DeclareFontShape{OML}{zpple}{b}{it}{
+\DeclareFontShape{OML}{zpple}{m}{sl}{<->ssub * zpple/m/it}{}
+\DeclareFontShape{OML}{zpple}{bx}{it}{<->ssub * zpple/b/it}{}
+\DeclareFontShape{OML}{zpple}{b}{sl}{<->ssub * zpple/b/it}{}
+\DeclareFontShape{OML}{zpple}{bx}{sl}{<->ssub * zpple/b/sl}{}
+\DeclareFontFamily{OML}{ztmcm}{\skewchar \font =127}
+\DeclareFontShape{OML}{ztmcm}{m}{it}{
+\DeclareFontShape{OML}{ztmcm}{m}{sl}{<->ssub * ztmcm/m/it}{}
+\DeclareFontFamily{OMS}{bch}{\skewchar\font48}
+\DeclareFontShape{OMS}{bch}{m}{n}
+\DeclareFontShape{OMS}{bch}{m}{it}
+\DeclareFontShape{OMS}{bch}{m}{sl}
+\DeclareFontShape{OMS}{bch}{m}{sc}
+\DeclareFontShape{OMS}{bch}{b}{n}
+\DeclareFontShape{OMS}{bch}{b}{it}
+\DeclareFontShape{OMS}{bch}{b}{sl}
+\DeclareFontShape{OMS}{bch}{b}{sc}
+\DeclareFontFamily{OMS}{pag}{\skewchar\font48}
+\DeclareFontShape{OMS}{pag}{m}{n}
+\DeclareFontShape{OMS}{pag}{m}{it}
+\DeclareFontShape{OMS}{pag}{m}{sl}
+\DeclareFontShape{OMS}{pag}{m}{sc}
+\DeclareFontShape{OMS}{pag}{b}{n}
+\DeclareFontShape{OMS}{pag}{b}{it}
+\DeclareFontShape{OMS}{pag}{b}{sl}
+\DeclareFontShape{OMS}{pag}{b}{sc}
+\DeclareFontFamily{OMS}{pbk}{\skewchar\font48}
+\DeclareFontShape{OMS}{pbk}{m}{n}
+\DeclareFontShape{OMS}{pbk}{m}{it}
+\DeclareFontShape{OMS}{pbk}{m}{sl}
+\DeclareFontShape{OMS}{pbk}{m}{sc}
+\DeclareFontShape{OMS}{pbk}{b}{n}
+\DeclareFontShape{OMS}{pbk}{b}{it}
+\DeclareFontShape{OMS}{pbk}{b}{sl}
+\DeclareFontShape{OMS}{pbk}{b}{sc}
+\DeclareFontFamily{OMS}{pcr}{\skewchar\font48}
+\DeclareFontShape{OMS}{pcr}{m}{n}
+\DeclareFontShape{OMS}{pcr}{m}{it}
+\DeclareFontShape{OMS}{pcr}{m}{sl}
+\DeclareFontShape{OMS}{pcr}{m}{sc}
+\DeclareFontShape{OMS}{pcr}{b}{n}
+\DeclareFontShape{OMS}{pcr}{b}{it}
+\DeclareFontShape{OMS}{pcr}{b}{sl}
+\DeclareFontShape{OMS}{pcr}{b}{sc}
+\DeclareFontFamily{OMS}{phv}{\skewchar\font48}
+\DeclareFontShape{OMS}{phv}{m}{n}
+\DeclareFontShape{OMS}{phv}{m}{it}
+\DeclareFontShape{OMS}{phv}{m}{sl}
+\DeclareFontShape{OMS}{phv}{m}{sc}
+\DeclareFontShape{OMS}{phv}{b}{n}
+\DeclareFontShape{OMS}{phv}{b}{it}
+\DeclareFontShape{OMS}{phv}{b}{sl}
+\DeclareFontShape{OMS}{phv}{b}{sc}
+\DeclareFontFamily{OMS}{pnc}{\skewchar\font48}
+\DeclareFontShape{OMS}{pnc}{m}{n}
+\DeclareFontShape{OMS}{pnc}{m}{it}
+\DeclareFontShape{OMS}{pnc}{m}{sl}
+\DeclareFontShape{OMS}{pnc}{m}{sc}
+\DeclareFontShape{OMS}{pnc}{b}{n}
+\DeclareFontShape{OMS}{pnc}{b}{it}
+\DeclareFontShape{OMS}{pnc}{b}{sl}
+\DeclareFontShape{OMS}{pnc}{b}{sc}
+\DeclareFontFamily{OMS}{ppl}{\skewchar\font48}
+\DeclareFontShape{OMS}{ppl}{m}{n}
+\DeclareFontShape{OMS}{ppl}{m}{it}
+\DeclareFontShape{OMS}{ppl}{m}{sl}
+\DeclareFontShape{OMS}{ppl}{m}{sc}
+\DeclareFontShape{OMS}{ppl}{b}{n}
+\DeclareFontShape{OMS}{ppl}{b}{it}
+\DeclareFontShape{OMS}{ppl}{b}{sl}
+\DeclareFontShape{OMS}{ppl}{b}{sc}
+\DeclareFontFamily{OMS}{ptm}{\skewchar\font48}
+\DeclareFontShape{OMS}{ptm}{m}{n}
+\DeclareFontShape{OMS}{ptm}{m}{it}
+\DeclareFontShape{OMS}{ptm}{m}{sl}
+\DeclareFontShape{OMS}{ptm}{m}{sc}
+\DeclareFontShape{OMS}{ptm}{b}{n}
+\DeclareFontShape{OMS}{ptm}{b}{it}
+\DeclareFontShape{OMS}{ptm}{b}{sl}
+\DeclareFontShape{OMS}{ptm}{b}{sc}
+\DeclareFontFamily{OMS}{put}{\skewchar\font48}
+\DeclareFontShape{OMS}{put}{m}{n}
+\DeclareFontShape{OMS}{put}{m}{it}
+\DeclareFontShape{OMS}{put}{m}{sl}
+\DeclareFontShape{OMS}{put}{m}{sc}
+\DeclareFontShape{OMS}{put}{b}{n}
+\DeclareFontShape{OMS}{put}{b}{it}
+\DeclareFontShape{OMS}{put}{b}{sl}
+\DeclareFontShape{OMS}{put}{b}{sc}
+\DeclareFontFamily{OMS}{pzc}{\skewchar\font48}
+\DeclareFontShape{OMS}{pzc}{m}{n}
+\DeclareFontShape{OMS}{pzc}{m}{it}
+\DeclareFontShape{OMS}{pzc}{m}{sl}
+\DeclareFontShape{OMS}{pzc}{m}{sc}
+\DeclareFontShape{OMS}{pzc}{b}{n}
+\DeclareFontShape{OMS}{pzc}{b}{it}
+\DeclareFontShape{OMS}{pzc}{b}{sl}
+\DeclareFontShape{OMS}{pzc}{b}{sc}
+\DeclareFontFamily{OMS}{pzccm}{}
+\DeclareFontShape{OMS}{pzccm}{m}{n}{
+\DeclareFontFamily{OMS}{zplm}{\skewchar \font =48}
+\DeclareFontShape{OMS}{zplm}{m}{n}{
+\DeclareFontShape{OMS}{zplm}{b}{n}{
+\DeclareFontShape{OMS}{zplm}{bx}{n}{<->ssub * zplm/b/n}{}
+\DeclareFontFamily{OMS}{zpple}{\skewchar \font =48}
+\DeclareFontShape{OMS}{zpple}{m}{n}{
+\DeclareFontShape{OMS}{zpple}{b}{n}{
+\DeclareFontShape{OMS}{zpple}{bx}{n}{<->ssub * zpple/b/n}{}
+\DeclareFontFamily{OMS}{ztmcm}{\skewchar \font =48}
+\DeclareFontShape{OMS}{ztmcm}{m}{n}{
+\DeclareFontFamily{OMX}{psycm}{}
+\DeclareFontShape{OMX}{psycm}{m}{n}{
+\DeclareFontFamily{OMX}{zplm}{}
+\DeclareFontShape{OMX}{zplm}{m}{n}{
+\DeclareFontFamily{OMX}{zpple}{}
+\DeclareFontShape{OMX}{zpple}{m}{n}{
+\DeclareFontFamily{OMX}{ztmcm}{}
+\DeclareFontShape{OMX}{ztmcm}{m}{n}{
+\DeclareFontFamily{OT1}{bch}{}
+\DeclareFontShape{OT1}{bch}{m}{n}{
+\DeclareFontShape{OT1}{bch}{m}{sc}{
+\DeclareFontShape{OT1}{bch}{m}{sl}{
+\DeclareFontShape{OT1}{bch}{m}{it}{
+\DeclareFontShape{OT1}{bch}{b}{n}{
+\DeclareFontShape{OT1}{bch}{b}{sc}{
+\DeclareFontShape{OT1}{bch}{b}{sl}{
+\DeclareFontShape{OT1}{bch}{b}{it}{
+\DeclareFontShape{OT1}{bch}{bx}{n}{<->ssub * bch/b/n}{}
+\DeclareFontShape{OT1}{bch}{bx}{sc}{<->ssub * bch/b/sc}{}
+\DeclareFontShape{OT1}{bch}{bx}{sl}{<->ssub * bch/b/sl}{}
+\DeclareFontShape{OT1}{bch}{bx}{it}{<->ssub * bch/b/it}{}
+\DeclareFontShape{OT1}{bch}{m}{ui}{<->ssub * bch/m/it}{}
+\DeclareFontShape{OT1}{bch}{b}{ui}{<->ssub * bch/b/it}{}
+\DeclareFontShape{OT1}{bch}{bx}{ui}{<->ssub * bch/b/it}{}
+\DeclareFontFamily{OT1}{pag}{}
+\DeclareFontShape{OT1}{pag}{m}{n}{
+\DeclareFontShape{OT1}{pag}{m}{sc}{
+\DeclareFontShape{OT1}{pag}{m}{sl}{
+\DeclareFontShape{OT1}{pag}{db}{n}{
+\DeclareFontShape{OT1}{pag}{db}{sc}{
+\DeclareFontShape{OT1}{pag}{db}{sl}{
+\DeclareFontShape{OT1}{pag}{m}{it}{<->ssub * pag/m/sl}{}
+\DeclareFontShape{OT1}{pag}{b}{n}{<->ssub * pag/db/n}{}
+\DeclareFontShape{OT1}{pag}{bx}{n}{<->ssub * pag/b/n}{}
+\DeclareFontShape{OT1}{pag}{b}{sc}{<->ssub * pag/db/sc}{}
+\DeclareFontShape{OT1}{pag}{bx}{sc}{<->ssub * pag/b/sc}{}
+\DeclareFontShape{OT1}{pag}{b}{sl}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{OT1}{pag}{bx}{sl}{<->ssub * pag/b/sl}{}
+\DeclareFontShape{OT1}{pag}{db}{it}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{OT1}{pag}{b}{it}{<->ssub * pag/db/it}{}
+\DeclareFontShape{OT1}{pag}{bx}{it}{<->ssub * pag/b/it}{}
+\DeclareFontShape{OT1}{pag}{m}{ui}{<->ssub * pag/m/it}{}
+\DeclareFontShape{OT1}{pag}{b}{ui}{<->ssub * pag/b/it}{}
+\DeclareFontShape{OT1}{pag}{bx}{ui}{<->ssub * pag/b/it}{}
+\DeclareFontFamily{OT1}{pbk}{}
+\DeclareFontShape{OT1}{pbk}{db}{n}{
+\DeclareFontShape{OT1}{pbk}{db}{sc}{
+\DeclareFontShape{OT1}{pbk}{db}{sl}{
+\DeclareFontShape{OT1}{pbk}{db}{it}{
+\DeclareFontShape{OT1}{pbk}{l}{n}{
+\DeclareFontShape{OT1}{pbk}{l}{sc}{
+\DeclareFontShape{OT1}{pbk}{l}{sl}{
+\DeclareFontShape{OT1}{pbk}{l}{it}{
+\DeclareFontShape{OT1}{pbk}{b}{n}{<->ssub * pbk/db/n}{}
+\DeclareFontShape{OT1}{pbk}{bx}{n}{<->ssub * pbk/b/n}{}
+\DeclareFontShape{OT1}{pbk}{b}{sc}{<->ssub * pbk/db/sc}{}
+\DeclareFontShape{OT1}{pbk}{bx}{sc}{<->ssub * pbk/b/sc}{}
+\DeclareFontShape{OT1}{pbk}{b}{sl}{<->ssub * pbk/db/sl}{}
+\DeclareFontShape{OT1}{pbk}{bx}{sl}{<->ssub * pbk/b/sl}{}
+\DeclareFontShape{OT1}{pbk}{b}{it}{<->ssub * pbk/db/it}{}
+\DeclareFontShape{OT1}{pbk}{bx}{it}{<->ssub * pbk/b/it}{}
+\DeclareFontShape{OT1}{pbk}{m}{n}{<->ssub * pbk/l/n}{}
+\DeclareFontShape{OT1}{pbk}{m}{sc}{<->ssub * pbk/l/sc}{}
+\DeclareFontShape{OT1}{pbk}{m}{sl}{<->ssub * pbk/l/sl}{}
+\DeclareFontShape{OT1}{pbk}{m}{it}{<->ssub * pbk/l/it}{}
+\DeclareFontShape{OT1}{pbk}{m}{ui}{<->ssub * pbk/m/it}{}
+\DeclareFontShape{OT1}{pbk}{b}{ui}{<->ssub * pbk/b/it}{}
+\DeclareFontShape{OT1}{pbk}{bx}{ui}{<->ssub * pbk/b/it}{}
+\DeclareFontFamily{OT1}{pcr}{\hyphenchar \font\m@ne}
+\DeclareFontShape{OT1}{pcr}{m}{n}{
+\DeclareFontShape{OT1}{pcr}{m}{sc}{
+\DeclareFontShape{OT1}{pcr}{m}{sl}{
+\DeclareFontShape{OT1}{pcr}{b}{n}{
+\DeclareFontShape{OT1}{pcr}{b}{sc}{
+\DeclareFontShape{OT1}{pcr}{b}{sl}{
+\DeclareFontShape{OT1}{pcr}{m}{it}{<->ssub * pcr/m/sl}{}
+\DeclareFontShape{OT1}{pcr}{bx}{n}{<->ssub * pcr/b/n}{}
+\DeclareFontShape{OT1}{pcr}{bx}{sc}{<->ssub * pcr/b/sc}{}
+\DeclareFontShape{OT1}{pcr}{bx}{sl}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{OT1}{pcr}{b}{it}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{OT1}{pcr}{bx}{it}{<->ssub * pcr/b/it}{}
+\DeclareFontShape{OT1}{pcr}{m}{ui}{<->ssub * pcr/m/it}{}
+\DeclareFontShape{OT1}{pcr}{b}{ui}{<->ssub * pcr/b/it}{}
+\DeclareFontShape{OT1}{pcr}{bx}{ui}{<->ssub * pcr/b/it}{}
+\DeclareFontFamily{OT1}{phv}{}
+\DeclareFontShape{OT1}{phv}{m}{n}{
+\DeclareFontShape{OT1}{phv}{m}{sc}{
+\DeclareFontShape{OT1}{phv}{m}{sl}{
+\DeclareFontShape{OT1}{phv}{mc}{n}{
+\DeclareFontShape{OT1}{phv}{mc}{sc}{
+\DeclareFontShape{OT1}{phv}{mc}{sl}{
+\DeclareFontShape{OT1}{phv}{b}{n}{
+\DeclareFontShape{OT1}{phv}{b}{sc}{
+\DeclareFontShape{OT1}{phv}{b}{sl}{
+\DeclareFontShape{OT1}{phv}{bc}{n}{
+\DeclareFontShape{OT1}{phv}{bc}{sc}{
+\DeclareFontShape{OT1}{phv}{bc}{sl}{
+\DeclareFontShape{OT1}{phv}{m}{it}{<->ssub * phv/m/sl}{}
+\DeclareFontShape{OT1}{phv}{mc}{it}{<->ssub * phv/mc/sl}{}
+\DeclareFontShape{OT1}{phv}{bx}{n}{<->ssub * phv/b/n}{}
+\DeclareFontShape{OT1}{phv}{bx}{sc}{<->ssub * phv/b/sc}{}
+\DeclareFontShape{OT1}{phv}{bx}{sl}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{OT1}{phv}{b}{it}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{OT1}{phv}{bx}{it}{<->ssub * phv/b/it}{}
+\DeclareFontShape{OT1}{phv}{bc}{it}{<->ssub * phv/bc/sl}{}
+\DeclareFontShape{OT1}{phv}{m}{ui}{<->ssub * phv/m/it}{}
+\DeclareFontShape{OT1}{phv}{b}{ui}{<->ssub * phv/b/it}{}
+\DeclareFontShape{OT1}{phv}{bx}{ui}{<->ssub * phv/b/it}{}
+\DeclareFontFamily{OT1}{pnc}{}
+\DeclareFontShape{OT1}{pnc}{m}{n}{
+\DeclareFontShape{OT1}{pnc}{m}{sc}{
+\DeclareFontShape{OT1}{pnc}{m}{sl}{
+\DeclareFontShape{OT1}{pnc}{m}{it}{
+\DeclareFontShape{OT1}{pnc}{b}{n}{
+\DeclareFontShape{OT1}{pnc}{b}{sc}{
+\DeclareFontShape{OT1}{pnc}{b}{sl}{
+\DeclareFontShape{OT1}{pnc}{b}{it}{
+\DeclareFontShape{OT1}{pnc}{bx}{n}{<->ssub * pnc/b/n}{}
+\DeclareFontShape{OT1}{pnc}{bx}{sc}{<->ssub * pnc/b/sc}{}
+\DeclareFontShape{OT1}{pnc}{bx}{sl}{<->ssub * pnc/b/sl}{}
+\DeclareFontShape{OT1}{pnc}{bx}{it}{<->ssub * pnc/b/it}{}
+\DeclareFontShape{OT1}{pnc}{m}{ui}{<->ssub * pnc/m/it}{}
+\DeclareFontShape{OT1}{pnc}{b}{ui}{<->ssub * pnc/b/it}{}
+\DeclareFontShape{OT1}{pnc}{bx}{ui}{<->ssub * pnc/b/it}{}
+\DeclareFontFamily{OT1}{ppl}{}
+\DeclareFontShape{OT1}{ppl}{m}{n}{
+\DeclareFontShape{OT1}{ppl}{m}{sc}{
+\DeclareFontShape{OT1}{ppl}{m}{sl}{
+\DeclareFontShape{OT1}{ppl}{m}{it}{
+\DeclareFontShape{OT1}{ppl}{b}{n}{
+\DeclareFontShape{OT1}{ppl}{b}{sc}{
+\DeclareFontShape{OT1}{ppl}{b}{sl}{
+\DeclareFontShape{OT1}{ppl}{b}{it}{
+\DeclareFontShape{OT1}{ppl}{bx}{n}{<->ssub * ppl/b/n}{}
+\DeclareFontShape{OT1}{ppl}{bx}{sc}{<->ssub * ppl/b/sc}{}
+\DeclareFontShape{OT1}{ppl}{bx}{sl}{<->ssub * ppl/b/sl}{}
+\DeclareFontShape{OT1}{ppl}{bx}{it}{<->ssub * ppl/b/it}{}
+\DeclareFontShape{OT1}{ppl}{m}{ui}{<->ssub * ppl/m/it}{}
+\DeclareFontShape{OT1}{ppl}{b}{ui}{<->ssub * ppl/b/it}{}
+\DeclareFontShape{OT1}{ppl}{bx}{ui}{<->ssub * ppl/b/it}{}
+\DeclareFontFamily{OT1}{pplj}{}
+\DeclareFontShape{OT1}{pplj}{m}{n}{
+\DeclareFontShape{OT1}{pplj}{m}{sc}{
+\DeclareFontShape{OT1}{pplj}{m}{it}{
+\DeclareFontShape{OT1}{pplj}{b}{n}{
+\DeclareFontShape{OT1}{pplj}{b}{it}{
+\DeclareFontShape{OT1}{pplj}{m}{sl}{<->ssub * pplj/m/it}{}
+\DeclareFontShape{OT1}{pplj}{bx}{n}{<->ssub * pplj/b/n}{}
+\DeclareFontShape{OT1}{pplj}{bx}{it}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{OT1}{pplj}{b}{sl}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{OT1}{pplj}{bx}{sl}{<->ssub * pplj/b/sl}{}
+\DeclareFontShape{OT1}{pplj}{m}{ui}{<->ssub * pplj/m/it}{}
+\DeclareFontShape{OT1}{pplj}{b}{ui}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{OT1}{pplj}{bx}{ui}{<->ssub * pplj/b/it}{}
+\DeclareFontFamily{OT1}{pplx}{}
+\DeclareFontShape{OT1}{pplx}{m}{n}{
+\DeclareFontShape{OT1}{pplx}{m}{sc}{
+\DeclareFontShape{OT1}{pplx}{m}{it}{
+\DeclareFontShape{OT1}{pplx}{b}{n}{
+\DeclareFontShape{OT1}{pplx}{b}{it}{
+\DeclareFontShape{OT1}{pplx}{m}{sl}{<->ssub * pplx/m/it}{}
+\DeclareFontShape{OT1}{pplx}{bx}{n}{<->ssub * pplx/b/n}{}
+\DeclareFontShape{OT1}{pplx}{bx}{it}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{OT1}{pplx}{b}{sl}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{OT1}{pplx}{bx}{sl}{<->ssub * pplx/b/sl}{}
+\DeclareFontShape{OT1}{pplx}{m}{ui}{<->ssub * pplx/m/it}{}
+\DeclareFontShape{OT1}{pplx}{b}{ui}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{OT1}{pplx}{bx}{ui}{<->ssub * pplx/b/it}{}
+\DeclareFontFamily{OT1}{ptm}{}
+\DeclareFontShape{OT1}{ptm}{m}{n}{
+\DeclareFontShape{OT1}{ptm}{m}{sc}{
+\DeclareFontShape{OT1}{ptm}{m}{sl}{
+\DeclareFontShape{OT1}{ptm}{m}{it}{
+\DeclareFontShape{OT1}{ptm}{b}{n}{
+\DeclareFontShape{OT1}{ptm}{b}{sc}{
+\DeclareFontShape{OT1}{ptm}{b}{sl}{
+\DeclareFontShape{OT1}{ptm}{b}{it}{
+\DeclareFontShape{OT1}{ptm}{bx}{n}{<->ssub * ptm/b/n}{}
+\DeclareFontShape{OT1}{ptm}{bx}{sc}{<->ssub * ptm/b/sc}{}
+\DeclareFontShape{OT1}{ptm}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{OT1}{ptm}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontShape{OT1}{ptm}{m}{ui}{<->ssub * ptm/m/it}{}
+\DeclareFontShape{OT1}{ptm}{b}{ui}{<->ssub * ptm/b/it}{}
+\DeclareFontShape{OT1}{ptm}{bx}{ui}{<->ssub * ptm/b/it}{}
+\DeclareFontFamily{OT1}{ptmcm}{}
+\DeclareFontShape{OT1}{ptmcm}{m}{n}{
+\DeclareFontFamily{OT1}{put}{}
+\DeclareFontShape{OT1}{put}{m}{n}{
+\DeclareFontShape{OT1}{put}{m}{sc}{
+\DeclareFontShape{OT1}{put}{m}{sl}{
+\DeclareFontShape{OT1}{put}{m}{it}{
+\DeclareFontShape{OT1}{put}{b}{n}{
+\DeclareFontShape{OT1}{put}{b}{sc}{
+\DeclareFontShape{OT1}{put}{b}{sl}{
+\DeclareFontShape{OT1}{put}{b}{it}{
+\DeclareFontShape{OT1}{put}{bx}{n}{<->ssub * put/b/n}{}
+\DeclareFontShape{OT1}{put}{bx}{sc}{<->ssub * put/b/sc}{}
+\DeclareFontShape{OT1}{put}{bx}{sl}{<->ssub * put/b/sl}{}
+\DeclareFontShape{OT1}{put}{bx}{it}{<->ssub * put/b/it}{}
+\DeclareFontShape{OT1}{put}{m}{ui}{<->ssub * put/m/it}{}
+\DeclareFontShape{OT1}{put}{b}{ui}{<->ssub * put/b/it}{}
+\DeclareFontShape{OT1}{put}{bx}{ui}{<->ssub * put/b/it}{}
+\DeclareFontFamily{OT1}{pzc}{}
+\DeclareFontShape{OT1}{pzc}{mb}{it}{
+\DeclareFontShape{OT1}{pzc}{m}{it}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{OT1}{pzc}{mb}{sl}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{OT1}{pzc}{m}{sl}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{OT1}{pzc}{m}{n}{<->ssub * pzc/mb/it}{}
+\DeclareFontFamily{OT1}{zplm}{}
+\DeclareFontShape{OT1}{zplm}{m}{n}{
+\DeclareFontShape{OT1}{zplm}{b}{n}{
+\DeclareFontShape{OT1}{zplm}{bx}{n}{<->ssub * zplm/b/n}{}
+\DeclareFontFamily{OT1}{zpple}{}
+\DeclareFontShape{OT1}{zpple}{m}{n}{
+\DeclareFontShape{OT1}{zpple}{b}{n}{
+\DeclareFontShape{OT1}{zpple}{bx}{n}{<->ssub * zpple/b/n}{}
+\DeclareFontFamily{OT1}{ztmcm}{}
+\DeclareFontShape{OT1}{ztmcm}{m}{n}{
+\DeclareFontFamily{T1}{bch}{}
+\DeclareFontShape{T1}{bch}{m}{n}{
+\DeclareFontShape{T1}{bch}{m}{sc}{
+\DeclareFontShape{T1}{bch}{m}{sl}{
+\DeclareFontShape{T1}{bch}{m}{it}{
+\DeclareFontShape{T1}{bch}{b}{n}{
+\DeclareFontShape{T1}{bch}{b}{sc}{
+\DeclareFontShape{T1}{bch}{b}{sl}{
+\DeclareFontShape{T1}{bch}{b}{it}{
+\DeclareFontShape{T1}{bch}{bx}{n}{<->ssub * bch/b/n}{}
+\DeclareFontShape{T1}{bch}{bx}{sc}{<->ssub * bch/b/sc}{}
+\DeclareFontShape{T1}{bch}{bx}{sl}{<->ssub * bch/b/sl}{}
+\DeclareFontShape{T1}{bch}{bx}{it}{<->ssub * bch/b/it}{}
+\DeclareFontFamily{T1}{pag}{}
+\DeclareFontShape{T1}{pag}{m}{n}{
+\DeclareFontShape{T1}{pag}{m}{sc}{
+\DeclareFontShape{T1}{pag}{m}{sl}{
+\DeclareFontShape{T1}{pag}{db}{n}{
+\DeclareFontShape{T1}{pag}{db}{sc}{
+\DeclareFontShape{T1}{pag}{db}{sl}{
+\DeclareFontShape{T1}{pag}{m}{it}{<->ssub * pag/m/sl}{}
+\DeclareFontShape{T1}{pag}{b}{n}{<->ssub * pag/db/n}{}
+\DeclareFontShape{T1}{pag}{bx}{n}{<->ssub * pag/b/n}{}
+\DeclareFontShape{T1}{pag}{b}{sc}{<->ssub * pag/db/sc}{}
+\DeclareFontShape{T1}{pag}{bx}{sc}{<->ssub * pag/b/sc}{}
+\DeclareFontShape{T1}{pag}{b}{sl}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{T1}{pag}{bx}{sl}{<->ssub * pag/b/sl}{}
+\DeclareFontShape{T1}{pag}{db}{it}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{T1}{pag}{b}{it}{<->ssub * pag/db/it}{}
+\DeclareFontShape{T1}{pag}{bx}{it}{<->ssub * pag/b/it}{}
+\DeclareFontFamily{T1}{pbk}{}
+\DeclareFontShape{T1}{pbk}{db}{n}{
+\DeclareFontShape{T1}{pbk}{db}{sc}{
+\DeclareFontShape{T1}{pbk}{db}{sl}{
+\DeclareFontShape{T1}{pbk}{db}{it}{
+\DeclareFontShape{T1}{pbk}{l}{n}{
+\DeclareFontShape{T1}{pbk}{l}{sc}{
+\DeclareFontShape{T1}{pbk}{l}{sl}{
+\DeclareFontShape{T1}{pbk}{l}{it}{
+\DeclareFontShape{T1}{pbk}{b}{n}{<->ssub * pbk/db/n}{}
+\DeclareFontShape{T1}{pbk}{bx}{n}{<->ssub * pbk/b/n}{}
+\DeclareFontShape{T1}{pbk}{b}{sc}{<->ssub * pbk/db/sc}{}
+\DeclareFontShape{T1}{pbk}{bx}{sc}{<->ssub * pbk/b/sc}{}
+\DeclareFontShape{T1}{pbk}{b}{sl}{<->ssub * pbk/db/sl}{}
+\DeclareFontShape{T1}{pbk}{bx}{sl}{<->ssub * pbk/b/sl}{}
+\DeclareFontShape{T1}{pbk}{b}{it}{<->ssub * pbk/db/it}{}
+\DeclareFontShape{T1}{pbk}{bx}{it}{<->ssub * pbk/b/it}{}
+\DeclareFontShape{T1}{pbk}{m}{n}{<->ssub * pbk/l/n}{}
+\DeclareFontShape{T1}{pbk}{m}{sc}{<->ssub * pbk/l/sc}{}
+\DeclareFontShape{T1}{pbk}{m}{sl}{<->ssub * pbk/l/sl}{}
+\DeclareFontShape{T1}{pbk}{m}{it}{<->ssub * pbk/l/it}{}
+\DeclareFontFamily{T1}{pcr}{\hyphenchar \font\m@ne}
+\DeclareFontShape{T1}{pcr}{m}{n}{
+\DeclareFontShape{T1}{pcr}{m}{sc}{
+\DeclareFontShape{T1}{pcr}{m}{sl}{
+\DeclareFontShape{T1}{pcr}{b}{n}{
+\DeclareFontShape{T1}{pcr}{b}{sc}{
+\DeclareFontShape{T1}{pcr}{b}{sl}{
+\DeclareFontShape{T1}{pcr}{m}{it}{<->ssub * pcr/m/sl}{}
+\DeclareFontShape{T1}{pcr}{bx}{n}{<->ssub * pcr/b/n}{}
+\DeclareFontShape{T1}{pcr}{bx}{sc}{<->ssub * pcr/b/sc}{}
+\DeclareFontShape{T1}{pcr}{bx}{sl}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{T1}{pcr}{b}{it}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{T1}{pcr}{bx}{it}{<->ssub * pcr/b/it}{}
+\DeclareFontFamily{T1}{phv}{}
+\DeclareFontShape{T1}{phv}{m}{n}{
+\DeclareFontShape{T1}{phv}{m}{sc}{
+\DeclareFontShape{T1}{phv}{m}{sl}{
+\DeclareFontShape{T1}{phv}{mc}{n}{
+\DeclareFontShape{T1}{phv}{mc}{sc}{
+\DeclareFontShape{T1}{phv}{mc}{sl}{
+\DeclareFontShape{T1}{phv}{b}{n}{
+\DeclareFontShape{T1}{phv}{b}{sc}{
+\DeclareFontShape{T1}{phv}{b}{sl}{
+\DeclareFontShape{T1}{phv}{bc}{n}{
+\DeclareFontShape{T1}{phv}{bc}{sc}{
+\DeclareFontShape{T1}{phv}{bc}{sl}{
+\DeclareFontShape{T1}{phv}{m}{it}{<->ssub * phv/m/sl}{}
+\DeclareFontShape{T1}{phv}{mc}{it}{<->ssub * phv/mc/sl}{}
+\DeclareFontShape{T1}{phv}{bx}{n}{<->ssub * phv/b/n}{}
+\DeclareFontShape{T1}{phv}{bx}{sc}{<->ssub * phv/b/sc}{}
+\DeclareFontShape{T1}{phv}{bx}{sl}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{T1}{phv}{b}{it}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{T1}{phv}{bx}{it}{<->ssub * phv/b/it}{}
+\DeclareFontShape{T1}{phv}{bc}{it}{<->ssub * phv/bc/sl}{}
+\DeclareFontFamily{T1}{pnc}{}
+\DeclareFontShape{T1}{pnc}{m}{n}{
+\DeclareFontShape{T1}{pnc}{m}{sc}{
+\DeclareFontShape{T1}{pnc}{m}{sl}{
+\DeclareFontShape{T1}{pnc}{m}{it}{
+\DeclareFontShape{T1}{pnc}{b}{n}{
+\DeclareFontShape{T1}{pnc}{b}{sc}{
+\DeclareFontShape{T1}{pnc}{b}{sl}{
+\DeclareFontShape{T1}{pnc}{b}{it}{
+\DeclareFontShape{T1}{pnc}{bx}{n}{<->ssub * pnc/b/n}{}
+\DeclareFontShape{T1}{pnc}{bx}{sc}{<->ssub * pnc/b/sc}{}
+\DeclareFontShape{T1}{pnc}{bx}{sl}{<->ssub * pnc/b/sl}{}
+\DeclareFontShape{T1}{pnc}{bx}{it}{<->ssub * pnc/b/it}{}
+\DeclareFontFamily{T1}{ppl}{}
+\DeclareFontShape{T1}{ppl}{m}{n}{
+\DeclareFontShape{T1}{ppl}{m}{sc}{
+\DeclareFontShape{T1}{ppl}{m}{sl}{
+\DeclareFontShape{T1}{ppl}{m}{it}{
+\DeclareFontShape{T1}{ppl}{b}{n}{
+\DeclareFontShape{T1}{ppl}{b}{sc}{
+\DeclareFontShape{T1}{ppl}{b}{sl}{
+\DeclareFontShape{T1}{ppl}{b}{it}{
+\DeclareFontShape{T1}{ppl}{bx}{n}{<->ssub * ppl/b/n}{}
+\DeclareFontShape{T1}{ppl}{bx}{sc}{<->ssub * ppl/b/sc}{}
+\DeclareFontShape{T1}{ppl}{bx}{sl}{<->ssub * ppl/b/sl}{}
+\DeclareFontShape{T1}{ppl}{bx}{it}{<->ssub * ppl/b/it}{}
+\DeclareFontFamily{T1}{pplj}{}
+\DeclareFontShape{T1}{pplj}{m}{n}{
+\DeclareFontShape{T1}{pplj}{m}{sc}{
+\DeclareFontShape{T1}{pplj}{m}{it}{
+\DeclareFontShape{T1}{pplj}{b}{n}{
+\DeclareFontShape{T1}{pplj}{b}{it}{
+\DeclareFontShape{T1}{pplj}{m}{sl}{<->ssub * pplj/m/it}{}
+\DeclareFontShape{T1}{pplj}{bx}{n}{<->ssub * pplj/b/n}{}
+\DeclareFontShape{T1}{pplj}{bx}{it}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{T1}{pplj}{b}{sl}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{T1}{pplj}{bx}{sl}{<->ssub * pplj/b/sl}{}
+\DeclareFontFamily{T1}{pplx}{}
+\DeclareFontShape{T1}{pplx}{m}{n}{
+\DeclareFontShape{T1}{pplx}{m}{sc}{
+\DeclareFontShape{T1}{pplx}{m}{it}{
+\DeclareFontShape{T1}{pplx}{b}{n}{
+\DeclareFontShape{T1}{pplx}{b}{it}{
+\DeclareFontShape{T1}{pplx}{m}{sl}{<->ssub * pplx/m/it}{}
+\DeclareFontShape{T1}{pplx}{bx}{n}{<->ssub * pplx/b/n}{}
+\DeclareFontShape{T1}{pplx}{bx}{it}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{T1}{pplx}{b}{sl}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{T1}{pplx}{bx}{sl}{<->ssub * pplx/b/sl}{}
+\DeclareFontFamily{T1}{ptm}{}
+\DeclareFontShape{T1}{ptm}{m}{n}{
+\DeclareFontShape{T1}{ptm}{m}{sc}{
+\DeclareFontShape{T1}{ptm}{m}{sl}{
+\DeclareFontShape{T1}{ptm}{m}{it}{
+\DeclareFontShape{T1}{ptm}{b}{n}{
+\DeclareFontShape{T1}{ptm}{b}{sc}{
+\DeclareFontShape{T1}{ptm}{b}{sl}{
+\DeclareFontShape{T1}{ptm}{b}{it}{
+\DeclareFontShape{T1}{ptm}{bx}{n}{<->ssub * ptm/b/n}{}
+\DeclareFontShape{T1}{ptm}{bx}{sc}{<->ssub * ptm/b/sc}{}
+\DeclareFontShape{T1}{ptm}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{T1}{ptm}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontFamily{T1}{put}{}
+\DeclareFontShape{T1}{put}{m}{n}{
+\DeclareFontShape{T1}{put}{m}{sc}{
+\DeclareFontShape{T1}{put}{m}{sl}{
+\DeclareFontShape{T1}{put}{m}{it}{
+\DeclareFontShape{T1}{put}{b}{n}{
+\DeclareFontShape{T1}{put}{b}{sc}{
+\DeclareFontShape{T1}{put}{b}{sl}{
+\DeclareFontShape{T1}{put}{b}{it}{
+\DeclareFontShape{T1}{put}{bx}{n}{<->ssub * put/b/n}{}
+\DeclareFontShape{T1}{put}{bx}{sc}{<->ssub * put/b/sc}{}
+\DeclareFontShape{T1}{put}{bx}{sl}{<->ssub * put/b/sl}{}
+\DeclareFontShape{T1}{put}{bx}{it}{<->ssub * put/b/it}{}
+\DeclareFontFamily{T1}{pzc}{}
+\DeclareFontShape{T1}{pzc}{mb}{it}{
+\DeclareFontShape{T1}{pzc}{m}{it}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{T1}{pzc}{mb}{sl}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{T1}{pzc}{m}{sl}{<->ssub * pzc/mb/sl}{}
+\DeclareFontShape{T1}{pzc}{m}{n}{<->ssub * pzc/mb/it}{}
+\DeclareFontFamily{TS1}{bch}{}
+\DeclareFontShape{TS1}{bch}{m}{n}{
+\DeclareFontShape{TS1}{bch}{m}{sl}{
+\DeclareFontShape{TS1}{bch}{m}{it}{
+\DeclareFontShape{TS1}{bch}{b}{n}{
+\DeclareFontShape{TS1}{bch}{b}{sl}{
+\DeclareFontShape{TS1}{bch}{b}{it}{
+\DeclareFontShape{TS1}{bch}{bx}{n}{<->ssub * bch/b/n}{}
+\DeclareFontShape{TS1}{bch}{bx}{sl}{<->ssub * bch/b/sl}{}
+\DeclareFontShape{TS1}{bch}{bx}{it}{<->ssub * bch/b/it}{}
+\DeclareFontFamily{TS1}{pag}{}
+\DeclareFontShape{TS1}{pag}{m}{n}{
+\DeclareFontShape{TS1}{pag}{m}{sl}{
+\DeclareFontShape{TS1}{pag}{db}{n}{
+\DeclareFontShape{TS1}{pag}{db}{sl}{
+\DeclareFontShape{TS1}{pag}{m}{it}{<->ssub * pag/m/sl}{}
+\DeclareFontShape{TS1}{pag}{b}{n}{<->ssub * pag/db/n}{}
+\DeclareFontShape{TS1}{pag}{bx}{n}{<->ssub * pag/b/n}{}
+\DeclareFontShape{TS1}{pag}{b}{sl}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{TS1}{pag}{bx}{sl}{<->ssub * pag/b/sl}{}
+\DeclareFontShape{TS1}{pag}{db}{it}{<->ssub * pag/db/sl}{}
+\DeclareFontShape{TS1}{pag}{b}{it}{<->ssub * pag/db/it}{}
+\DeclareFontShape{TS1}{pag}{bx}{it}{<->ssub * pag/b/it}{}
+\DeclareFontFamily{TS1}{pbk}{}
+\DeclareFontShape{TS1}{pbk}{db}{n}{
+\DeclareFontShape{TS1}{pbk}{db}{sl}{
+\DeclareFontShape{TS1}{pbk}{db}{it}{
+\DeclareFontShape{TS1}{pbk}{l}{n}{
+\DeclareFontShape{TS1}{pbk}{l}{sl}{
+\DeclareFontShape{TS1}{pbk}{l}{it}{
+\DeclareFontShape{TS1}{pbk}{b}{n}{<->ssub * pbk/db/n}{}
+\DeclareFontShape{TS1}{pbk}{bx}{n}{<->ssub * pbk/b/n}{}
+\DeclareFontShape{TS1}{pbk}{b}{sl}{<->ssub * pbk/db/sl}{}
+\DeclareFontShape{TS1}{pbk}{bx}{sl}{<->ssub * pbk/b/sl}{}
+\DeclareFontShape{TS1}{pbk}{b}{it}{<->ssub * pbk/db/it}{}
+\DeclareFontShape{TS1}{pbk}{bx}{it}{<->ssub * pbk/b/it}{}
+\DeclareFontShape{TS1}{pbk}{m}{n}{<->ssub * pbk/l/n}{}
+\DeclareFontShape{TS1}{pbk}{m}{sl}{<->ssub * pbk/l/sl}{}
+\DeclareFontShape{TS1}{pbk}{m}{it}{<->ssub * pbk/l/it}{}
+\DeclareFontFamily{TS1}{pcr}{\hyphenchar \font\m@ne}
+\DeclareFontShape{TS1}{pcr}{m}{n}{
+\DeclareFontShape{TS1}{pcr}{m}{sl}{
+\DeclareFontShape{TS1}{pcr}{b}{n}{
+\DeclareFontShape{TS1}{pcr}{b}{sl}{
+\DeclareFontShape{TS1}{pcr}{m}{it}{<->ssub * pcr/m/sl}{}
+\DeclareFontShape{TS1}{pcr}{bx}{n}{<->ssub * pcr/b/n}{}
+\DeclareFontShape{TS1}{pcr}{bx}{sl}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{TS1}{pcr}{b}{it}{<->ssub * pcr/b/sl}{}
+\DeclareFontShape{TS1}{pcr}{bx}{it}{<->ssub * pcr/b/it}{}
+\DeclareFontFamily{TS1}{phv}{}
+\DeclareFontShape{TS1}{phv}{m}{n}{
+\DeclareFontShape{TS1}{phv}{m}{sl}{
+\DeclareFontShape{TS1}{phv}{mc}{n}{
+\DeclareFontShape{TS1}{phv}{mc}{sl}{
+\DeclareFontShape{TS1}{phv}{b}{n}{
+\DeclareFontShape{TS1}{phv}{b}{sl}{
+\DeclareFontShape{TS1}{phv}{bc}{n}{
+\DeclareFontShape{TS1}{phv}{bc}{sl}{
+\DeclareFontShape{TS1}{phv}{m}{it}{<->ssub * phv/m/sl}{}
+\DeclareFontShape{TS1}{phv}{mc}{it}{<->ssub * phv/mc/sl}{}
+\DeclareFontShape{TS1}{phv}{bx}{n}{<->ssub * phv/b/n}{}
+\DeclareFontShape{TS1}{phv}{bx}{sl}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{TS1}{phv}{b}{it}{<->ssub * phv/b/sl}{}
+\DeclareFontShape{TS1}{phv}{bx}{it}{<->ssub * phv/b/it}{}
+\DeclareFontShape{TS1}{phv}{bc}{it}{<->ssub * phv/bc/sl}{}
+\DeclareFontFamily{TS1}{pnc}{}
+\DeclareFontShape{TS1}{pnc}{m}{n}{
+\DeclareFontShape{TS1}{pnc}{m}{sl}{
+\DeclareFontShape{TS1}{pnc}{m}{it}{
+\DeclareFontShape{TS1}{pnc}{b}{n}{
+\DeclareFontShape{TS1}{pnc}{b}{sl}{
+\DeclareFontShape{TS1}{pnc}{b}{it}{
+\DeclareFontShape{TS1}{pnc}{bx}{n}{<->ssub * pnc/b/n}{}
+\DeclareFontShape{TS1}{pnc}{bx}{sl}{<->ssub * pnc/b/sl}{}
+\DeclareFontShape{TS1}{pnc}{bx}{it}{<->ssub * pnc/b/it}{}
+\DeclareFontFamily{TS1}{ppl}{}
+\DeclareFontShape{TS1}{ppl}{m}{n}{
+\DeclareFontShape{TS1}{ppl}{m}{sl}{
+\DeclareFontShape{TS1}{ppl}{m}{it}{
+\DeclareFontShape{TS1}{ppl}{b}{n}{
+\DeclareFontShape{TS1}{ppl}{b}{sl}{
+\DeclareFontShape{TS1}{ppl}{b}{it}{
+\DeclareFontShape{TS1}{ppl}{bx}{n}{<->ssub * ppl/b/n}{}
+\DeclareFontShape{TS1}{ppl}{bx}{sl}{<->ssub * ppl/b/sl}{}
+\DeclareFontShape{TS1}{ppl}{bx}{it}{<->ssub * ppl/b/it}{}
+\DeclareFontFamily{TS1}{pplj}{}
+\DeclareFontShape{TS1}{pplj}{m}{n}{
+\DeclareFontShape{TS1}{pplj}{m}{it}{
+\DeclareFontShape{TS1}{pplj}{b}{n}{
+\DeclareFontShape{TS1}{pplj}{b}{it}{
+\DeclareFontShape{TS1}{pplj}{m}{sl}{<->ssub * pplj/m/it}{}
+\DeclareFontShape{TS1}{pplj}{bx}{n}{<->ssub * pplj/b/n}{}
+\DeclareFontShape{TS1}{pplj}{bx}{it}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{TS1}{pplj}{b}{sl}{<->ssub * pplj/b/it}{}
+\DeclareFontShape{TS1}{pplj}{bx}{sl}{<->ssub * pplj/b/sl}{}
+\DeclareFontFamily{TS1}{pplx}{}
+\DeclareFontShape{TS1}{pplx}{m}{n}{
+\DeclareFontShape{TS1}{pplx}{m}{it}{
+\DeclareFontShape{TS1}{pplx}{b}{n}{
+\DeclareFontShape{TS1}{pplx}{b}{it}{
+\DeclareFontShape{TS1}{pplx}{m}{sl}{<->ssub * pplx/m/it}{}
+\DeclareFontShape{TS1}{pplx}{bx}{n}{<->ssub * pplx/b/n}{}
+\DeclareFontShape{TS1}{pplx}{bx}{it}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{TS1}{pplx}{b}{sl}{<->ssub * pplx/b/it}{}
+\DeclareFontShape{TS1}{pplx}{bx}{sl}{<->ssub * pplx/b/sl}{}
+\DeclareFontFamily{TS1}{ptm}{}
+\DeclareFontShape{TS1}{ptm}{m}{n}{
+\DeclareFontShape{TS1}{ptm}{m}{sl}{
+\DeclareFontShape{TS1}{ptm}{m}{it}{
+\DeclareFontShape{TS1}{ptm}{b}{n}{
+\DeclareFontShape{TS1}{ptm}{b}{sl}{
+\DeclareFontShape{TS1}{ptm}{b}{it}{
+\DeclareFontShape{TS1}{ptm}{bx}{n}{<->ssub * ptm/b/n}{}
+\DeclareFontShape{TS1}{ptm}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{TS1}{ptm}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontFamily{TS1}{put}{}
+\DeclareFontShape{TS1}{put}{m}{n}{
+\DeclareFontShape{TS1}{put}{m}{sl}{
+\DeclareFontShape{TS1}{put}{m}{it}{
+\DeclareFontShape{TS1}{put}{b}{n}{
+\DeclareFontShape{TS1}{put}{b}{sl}{
+\DeclareFontShape{TS1}{put}{b}{it}{
+\DeclareFontShape{TS1}{put}{bx}{n}{<->ssub * put/b/n}{}
+\DeclareFontShape{TS1}{put}{bx}{sl}{<->ssub * put/b/sl}{}
+\DeclareFontShape{TS1}{put}{bx}{it}{<->ssub * put/b/it}{}
+\DeclareFontFamily{TS1}{pzc}{}
+\DeclareFontShape{TS1}{pzc}{mb}{it}{
+\DeclareFontShape{TS1}{pzc}{m}{it}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{TS1}{pzc}{mb}{sl}{<->ssub * pzc/mb/it}{}
+\DeclareFontShape{TS1}{pzc}{m}{sl}{<->ssub * pzc/mb/sl}{}
+\DeclareFontShape{TS1}{pzc}{m}{n}{<->ssub * pzc/mb/it}{}
+\DeclareFontFamily{U}{fplm}{}
+\DeclareFontShape{U}{fplm}{m}{n}{
+\DeclareFontShape{U}{fplm}{m}{it}{
+\DeclareFontShape{U}{fplm}{b}{n}{
+\DeclareFontShape{U}{fplm}{b}{it}{
+\DeclareFontShape{U}{fplm}{m}{sl}{<->ssub * fplm/m/it}{}
+\DeclareFontShape{U}{fplm}{bx}{n}{<->ssub * fplm/b/n}{}
+\DeclareFontShape{U}{fplm}{bx}{it}{<->ssub * fplm/b/it}{}
+\DeclareFontShape{U}{fplm}{b}{sl}{<->ssub * fplm/b/it}{}
+\DeclareFontShape{U}{fplm}{bx}{sl}{<->ssub * fplm/b/sl}{}
+\DeclareFontFamily{U}{fplmbb}{}
+\DeclareFontShape{U}{fplmbb}{m}{n}{
+\DeclareFontFamily{U}{psy}{}
+\DeclareFontShape{U}{psy}{m}{n}{<->psyr}{}
+\DeclareFontFamily{U}{pzd}{}
+\DeclareFontShape{U}{pzd}{m}{n}{<->pzdr}{}
